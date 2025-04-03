@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📣 [Compressive Covariance Sketching: Efficient Rank-$1$ Sampling and Optimal Recovery]([https://arxiv.org/abs/2501.17396](https://openreview.net/pdf?id=F4Sts6EAB6)) has been accepted to [SampTA 2025](https://sampta25.univie.ac.at/)! Thanks to my wonderful collaborators. See you around at Vienna this July!
+📣 [Compressive Covariance Sketching: Efficient Rank-$1$ Sampling and Optimal Recovery](https://openreview.net/pdf?id=F4Sts6EAB6) has been accepted to [SampTA 2025](https://sampta25.univie.ac.at/)! Thanks to my wonderful collaborators. See you around at Vienna this July!
