@@ -1,17 +1,17 @@
 {
   "basics": {
     "name": "Wenbin Wang",
-    "label": "Master",
+    "label": "Mr.",
     "image": "",
     "email": "wangwb2023@shanghaitech.edu.cn",
     "phone": "",
     "url": "https://WenbinWang12.github.io",
-    "summary": "",
+    "summary": "Hungry and humble",
     "location": {
       "address": "shanghaiTech University, No. 393, Middle Huaxia Road",
       "postalCode": "Pudong District, 201210",
       "city": "Shanghai",
-      "countryCode": "China",
+      "countryCode": "CN",
       "region": "Shanghai"
     },
     "profiles": [
@@ -55,6 +55,17 @@
       "startDate": "2022-09-01",
       "endDate": "2026-06-31",
       "score": "",
+      "courses": [""]
+    },
+    {
+      "institution": "Huazhong Agricultural University, Wuhan, China",
+      "location": "Pudong District, Wuhan",
+      "url": "https://www.hzau.edu.cn/",
+      "area": "Economics",
+      "studyType": "Bachelor",
+      "startDate": "2018-09-01",
+      "endDate": "2022-06-31",
+      "score": "3.55/4.00",
       "courses": [""]
     }
   ],
