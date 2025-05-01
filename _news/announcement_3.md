@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📣 [Compressive Covariance Sketching: Efficient Rank-$1$ Sampling and Optimal Recovery](https://openreview.net/pdf?id=F4Sts6EAB6) has been accepted to [SampTA 2025](https://sampta25.univie.ac.at/)! Thanks to my wonderful collaborators. See you around at Vienna this July!
+📣 [High-Dimensional Tensor Regression With Oracle Properties](https://openreview.net/pdf?id=ue1ptN4kSS) has been accepted to [ICML 2025](https://icml.cc/Conferences/2025/)! Thanks to my wonderful collaborators. See you around at Vancouver Convention Center this July!
