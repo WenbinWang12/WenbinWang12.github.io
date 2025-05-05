@@ -10,7 +10,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>SIST 1A-409</p>
+    <p>SIST 1D-307</p>
     <p>ShanghaiTech University</p>
     <p>Shanghai, China</p>
 
