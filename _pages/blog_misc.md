@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /blog_misc/
-title: Miscellaneousness
+title: 今朝有酒今朝醉
 nav: false
-description: 今朝有酒今朝醉
+description: 
 nav: false
 nav_order: 3
 display_categories: [work, fun]
