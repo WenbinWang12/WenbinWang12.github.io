@@ -5,7 +5,7 @@ title: Misc
 nav: false
 pagination:
   enabled: true
-  collection: postsmisc
+  collection: projects
   permalink: /page/:num/
   per_page: 5
   sort_field: date
