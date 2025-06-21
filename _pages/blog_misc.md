@@ -2,8 +2,7 @@
 layout: default
 permalink: /blog_misc/
 title: Misc
-nav: true
-nav_order: 1
+nav: false
 pagination:
   enabled: true
   collection: posts_misc

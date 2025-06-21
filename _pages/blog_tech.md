@@ -2,8 +2,7 @@
 layout: default
 permalink: /blog_tech/
 title: Tech
-nav: true
-nav_order: 1
+nav: false
 pagination:
   enabled: true
   collection: posts_tech
