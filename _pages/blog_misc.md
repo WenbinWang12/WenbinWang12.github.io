@@ -5,7 +5,7 @@ title: Misc
 nav: false
 pagination:
   enabled: true
-  collection: posts_misc
+  collection: postsmisc
   permalink: /page/:num/
   per_page: 5
   sort_field: date
