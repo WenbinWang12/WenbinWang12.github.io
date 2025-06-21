@@ -5,7 +5,7 @@ title: Tech
 nav: false
 pagination:
   enabled: true
-  collection: poststech
+  collection: posts
   permalink: /page/:num/
   per_page: 5
   sort_field: date
