@@ -1,7 +1,7 @@
 ---
 layout: cv
-permalink: /cv/
-title: CV
+permalink: /cv_en/
+title: English
 nav: true
 nav_order: 5
 cv_pdf: CV_pdf.pdf # you can also use external links here
