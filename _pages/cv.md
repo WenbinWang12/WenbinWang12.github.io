@@ -8,6 +8,6 @@ dropdown: true
 children:
   - title: English
     permalink: /cv_en/
-  - title: Chinese
+  - title: Chinese(中文)
     permalink: /cv_cn/
 ---
