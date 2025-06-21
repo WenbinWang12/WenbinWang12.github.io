@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: <a href='#'>ShanghaiTech DSAIL</a>. Address. Contacts. Moto. Etc.
 
