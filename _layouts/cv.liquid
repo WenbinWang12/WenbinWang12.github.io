@@ -7,12 +7,12 @@ layout: default
       <h1 class="post-title">
         {{ page.title }}
         {% comment %} {% endcomment %}
-        {% if page.cv_cn %}
+        {% if page.CV_CN %}
           <a
-            {% if page.cv_cn contains '://' %}
-              href="{{ page.cv_cn }}"
+            {% if page.CV_CN contains '://' %}
+              href="{{ page.CV_CN }}"
             {% else %}
-              href="{{ page.cv_cn | prepend: 'assets/pdf/' | relative_url }}"
+              href="{{ page.CV_CN | prepend: 'assets/pdf/' | relative_url }}"
             {% endif %}
             target="_blank"
             rel="noopener noreferrer"
