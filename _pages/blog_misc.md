@@ -1,18 +1,10 @@
 ---
 layout: page
 permalink: /blog_misc/
-title: Misc
+title: Miscellaneousness
 nav: false
-description: A growing collection of your cool projects.
-nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
----
-
-<!-- ---
-description: A growing collection of your cool projects.
-nav: true
+description: 今朝有酒今朝醉
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
