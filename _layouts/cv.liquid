@@ -6,24 +6,6 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% comment %} {% endcomment %}
-        {% if page.CV_CN %}
-          <a
-            {% if page.CV_CN contains '://' %}
-              href="{{ page.CV_CN }}"
-            {% else %}
-              href="{{ page.CV_CN | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-            style="margin-right: 10px;" 
-          >
-            <i class="fa-solid fa-flag fa-fw"></i>
-          </a>
-        {% endif %}
-        
-        {% comment %} {% endcomment %}
         {% if page.cv_pdf %}
           <a
             {% if page.cv_pdf contains '://' %}
