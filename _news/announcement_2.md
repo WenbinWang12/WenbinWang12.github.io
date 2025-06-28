@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-04-12 00:00:00-0400
+date: 2025-06-27 00:00:00-0400
 inline: true
 related_posts: false
 ---
 
-📣 Achieving Oracle Rate for Large Covariance Matrix Estimation From Quadratic Measurements has been accepted to [ISIT 2025](https://2025.ieee-isit.org/)! Thanks to my wonderful collaborators.
+📣 Noisy Bilinear Low-Rank Matrix Sketching has been accepted to [ITW 2025](https://www.ieee-itw2025.org/)! Thanks to my wonderful collaborators.
