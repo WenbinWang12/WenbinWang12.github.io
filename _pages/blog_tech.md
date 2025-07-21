@@ -194,7 +194,7 @@ pagination:
 
 
 <b>Chat with me:</b> 
-I have set up the [public-coffee-hours](https://calendly.com/luminaryalexander/public-coffee-hours). 
+I have set up the <a href="https://calendly.com/luminaryalexander/public-coffee-hours" target="_blank">public-coffee-hours</a>. 
 Welcome to chat with me! (This may take a while to load. Try refreshing the page if it's not loading.)
 
 
