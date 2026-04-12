@@ -4,12 +4,10 @@
   {% assign home_url = '/' %}
   {% if current_lang == 'zh' %}
     {% assign about_title = '关于' %}
-    {% assign language_toggle_label = '中文' %}
-    {% assign language_toggle_title = '切换语言' %}
+    {% assign language_toggle_label = '中' %}
   {% else %}
     {% assign about_title = 'About' %}
     {% assign language_toggle_label = 'EN' %}
-    {% assign language_toggle_title = 'Change language' %}
   {% endif %}
   {% assign english_switch_url = '/' %}
   {% assign chinese_switch_url = '/zh/' %}
@@ -28,6 +26,14 @@
       {% endif %}
     {% endif %}
   {% endfor %}
+
+  {% if current_lang == 'zh' %}
+    {% assign language_switch_url = english_switch_url %}
+    {% assign language_toggle_title = '切换到英文' %}
+  {% else %}
+    {% assign language_switch_url = chinese_switch_url %}
+    {% assign language_toggle_title = 'Switch to Chinese' %}
+  {% endif %}
 
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
@@ -147,27 +153,15 @@
             {% endif %}
           {% endfor %}
 
-          <li class="toggle-container dropdown language-toggle-container">
-            <button
+          <li class="toggle-container language-toggle-container">
+            <a
               id="language-toggle"
-              class="dropdown-toggle"
-              type="button"
+              href="{{ language_switch_url | relative_url }}"
               title="{{ language_toggle_title }}"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
+              aria-label="{{ language_toggle_title }}"
             >
-              <i class="fa-solid fa-language"></i>
               <span class="language-toggle-label">{{ language_toggle_label }}</span>
-            </button>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="language-toggle">
-              <a class="dropdown-item {% if current_lang == 'en' %}active{% endif %}" href="{{ english_switch_url | relative_url }}">
-                English
-              </a>
-              <a class="dropdown-item {% if current_lang == 'zh' %}active{% endif %}" href="{{ chinese_switch_url | relative_url }}">
-                中文
-              </a>
-            </div>
+            </a>
           </li>
 
           {% if site.enable_darkmode %}

@@ -399,17 +399,16 @@ ul.task-list input[type="checkbox"] {
 #language-toggle {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  justify-content: center;
+  min-width: 1.8rem;
+  line-height: 1;
+  text-decoration: none;
 }
 
 .language-toggle-container {
-  .dropdown-menu {
-    min-width: 7.5rem;
-  }
-
   .language-toggle-label {
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
