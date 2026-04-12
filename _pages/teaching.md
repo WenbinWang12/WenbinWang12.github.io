@@ -4,6 +4,8 @@ permalink: /teaching/
 title: Teaching
 nav: true
 nav_order: 6
+lang: en
+translation_key: teaching
 ---
 
 <div style="display: flex; flex-direction: column; width: 100%;">

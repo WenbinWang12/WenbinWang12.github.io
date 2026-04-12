@@ -1,19 +1,22 @@
 ---
 layout: default
-permalink: /blog_tech/
-title: Tech
+permalink: /zh/blog_tech/
+title: 技术
 nav: false
-lang: en
+lang: zh
 translation_key: blog-tech
+blog_name: 洞见栈
+blog_description: 记录技术探索，也记录对未来的想象。
 pagination:
   enabled: true
   collection: posts
-  permalink: /page/:num/
+  permalink: /zh/blog_tech/page/:num/
   per_page: 5
   sort_field: date
   sort_reverse: true
   trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+    before: 1
+    after: 3
 ---
+
 {% include blog_tech_content.liquid %}

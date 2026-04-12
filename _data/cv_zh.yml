@@ -1,0 +1,94 @@
+- title: 基本信息
+  type: map
+  contents:
+    - name: 姓名
+      value: Wenbin Wang
+    - name: 出生日期
+      value: 2000年12月16日
+    - name: 语言
+      value: 英语、中文
+
+- title: 教育经历
+  type: time_table
+  contents:
+    - title: 硕士
+      institution: 上海科技大学，中国上海
+      year: 1905
+      description:
+        - 描述 1。
+        - 描述 2。
+        - title: 描述 3。
+          contents:
+            - 子描述 1。
+            - 子描述 2。
+    - title: 联邦教师文凭
+      institution: 苏黎世联邦理工学院，瑞士苏黎世
+      year: 1900
+      description:
+        - 描述 1。
+        - 描述 2。
+
+- title: 工作经历
+  type: time_table
+  contents:
+    - title: 理论物理教授
+      institution: 普林斯顿高等研究院，美国普林斯顿
+      year: 1933 - 1955
+      description:
+        - 描述 1。
+        - 描述 2。
+        - title: 描述 3。
+          contents:
+            - 子描述 1。
+            - 子描述 2。
+    - title: 访问教授
+      institution: 加州理工学院，美国帕萨迪纳
+      year: 1933
+      description:
+        - 描述 1。
+        - 描述 2。
+    - title: 所长
+      institution: Kaiser Wilhelm Institute for Physics，德国柏林
+      year: 1917 - 1933
+    - title: 理论物理教授
+      institution: Karl-Ferdinand University，布拉格
+      year: 1911 - 1917
+      description:
+    - title: 理论物理副教授
+      institution: 苏黎世大学，瑞士苏黎世
+      year: 1909 - 1911
+
+- title: 开源项目
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015 - 至今
+      description: 一个面向学术个人主页的简洁、美观、响应式 Jekyll 主题。
+
+- title: 荣誉与奖项
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - 诺贝尔物理学奖
+        - Matteucci 奖章
+    - year: 2029
+      items:
+        - 马克斯·普朗克奖章
+
+- title: 学术兴趣
+  type: nested_list
+  contents:
+    - title: 主题 1
+      items:
+        - 描述 1。
+        - 描述 2。
+    - title: 主题 2
+      items:
+        - 描述 1。
+        - 描述 2。
+
+- title: 其他兴趣
+  type: list
+  contents:
+    - <u>爱好：</u> 爱好 1、爱好 2 等。

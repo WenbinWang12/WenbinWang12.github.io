@@ -1,4 +1,12 @@
 <div class="news">
+  {% assign current_lang = page.lang | default: site.lang | default: 'en' %}
+  {% if current_lang == 'zh' %}
+    {% assign news_date_format = '%Y年%m月%d日' %}
+    {% assign no_news_text = '暂无新闻。' %}
+  {% else %}
+    {% assign news_date_format = '%b %d, %Y' %}
+    {% assign no_news_text = 'No news so far...' %}
+  {% endif %}
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
     <div
@@ -16,7 +24,7 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 20%">{{ item.date | date: news_date_format }}</th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
@@ -29,6 +37,6 @@
       </table>
     </div>
   {% else %}
-    <p>No news so far...</p>
+    <p>{{ no_news_text }}</p>
   {% endif %}
 </div>

@@ -2,6 +2,12 @@
 layout: about
 title: About
 permalink: /
+lang: en
+translation_key: home
+news_title: News
+news_permalink: /news/
+selected_publications_title: Selected Publications
+publications_permalink: /publications/
 # subtitle: <a href='#'>ShanghaiTech DSAIL</a>. Address. Contacts. Moto. Etc.
 
 

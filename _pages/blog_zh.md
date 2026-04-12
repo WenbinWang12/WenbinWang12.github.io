@@ -1,17 +1,17 @@
 ---
 layout: default
-permalink: /blog/
-title: Blog
+permalink: /zh/blog/
+title: 博客
 nav: true
 nav_order: 1
 dropdown: true
-lang: en
+lang: zh
 translation_key: blog
 children:
-  - title: Tech
-    permalink: /blog_tech/
+  - title: 技术
+    permalink: /zh/blog_tech/
     translation_key: blog-tech
-  - title: Misc
-    permalink: /blog_misc/
+  - title: 随笔
+    permalink: /zh/blog_misc/
     translation_key: blog-misc
 ---

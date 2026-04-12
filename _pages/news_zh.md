@@ -1,8 +1,8 @@
 ---
 layout: page
-title: news
-permalink: /news/
-lang: en
+title: 新闻
+permalink: /zh/news/
+lang: zh
 translation_key: news
 ---
 
